@@ -1,0 +1,23 @@
+p {
+  font-family: Roboto, Arial; /* If roboto fails then it falls back to Arial */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-right: 25px;
+  background-color: rgb(249, 249, 249);
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* This will make the link color inherit the color from its parent element */
+}
+
+a:visited {
+  color: inherit; /* Ensures the visited link color is the same as the normal link color */
+}
